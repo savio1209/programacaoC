@@ -2,7 +2,7 @@
 
 int main() {
 
-// Declaração das variáveis para a carta 1
+// Declaração das variáveis para a carta 1 teste
 char estado1, codigo1[4], nome_cidade1[100];
 int populacao1, pontos_turisticos1;
 float area1, pib1, densi_pop1, pibpc1; // Acréscimo das variáveis densi_pop1 e pibpc1
