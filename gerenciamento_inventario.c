@@ -17,6 +17,10 @@ unsigned int estoqueMinimoB = 2500;
 double valorTotalA;
 double valorTotalB;
 
-printf("Produto %s tem estoque %u e o valor unitário é %f\n", produtoA, estoqueA, valorA);
-printf("Produto %s tem estoque %u e o valor unitário é %f\n", produtoB, estoqueB, valorB);
+printf("Produto %s tem estoque %u e o valor unitário é %.2f\n", produtoA, estoqueA, valorA);
+printf("Produto %s tem estoque %u e o valor unitário é %.2f\n", produtoB, estoqueB, valorB);
+
+return 0;
+
+}
 
