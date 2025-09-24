@@ -15,15 +15,15 @@ float area2, pib2, densi_pop2, pibpc2; // Acréscimo das variáveis densi_pop2 e
 // Informações para a Carta 1
 
 printf("Cadastro da primeira carta:\n");
-printf("Informe o código da cidade (ex.: A01): ");
+printf("Informe o código da cidade (ex.: A01): \n");
 scanf("%3s", codigo1);
-printf("População: ");
+printf("População: \n");
 scanf("%d", &populacao1);
-printf("Área (em km2): ");
+printf("Área (em km2): \n");
 scanf("%f", &area1);
-printf("PIB (em bilhões): ");
+printf("PIB (em bilhões): \n");
 scanf("%f", &pib1);
-printf("Número de pontos turísticos: ");
+printf("Número de pontos turísticos: \n");
 scanf("%d", &pontos_turisticos1);
 
 // Cálculo da densidade populacional e PIB per capita da primeira carta
@@ -33,15 +33,15 @@ pibpc1 = pib1 / populacao1;
 // Informações para a Carta 2
 
 printf("Cadastro da segunda carta:\n");
-printf("Informe o código da cidade (ex.: B02): ");
+printf("Informe o código da cidade (ex.: B02): \n");
 scanf("%3s", codigo2);
-printf("População: ");
+printf("População: \n");
 scanf("%d", &populacao2);
-printf("Área (em km2): ");
+printf("Área (em km2): \n");
 scanf("%f", &area2);
-printf("PIB (em bilhões): ");
+printf("PIB (em bilhões): \n");
 scanf("%f", &pib2);
-printf("Número de pontos turísticos: ");
+printf("Número de pontos turísticos: \n");
 scanf("%d", &pontos_turisticos2);
 
 // Cálculo da densidade populacional e PIB per capita da segunda carta
