@@ -73,6 +73,7 @@ printf("PIB: %.2f bilhões\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos_turisticos1);
 printf("Densidade Populacional: %.2f\n", densi_pop1);
 printf("PIB per capita: %.2f\n", pibpc1);
+printf("Super Poder da primeira carta: %f\n", superpoder1);
 
 printf("\n--- Dados da Segunda Carta ---\n");
 printf("Código: %s\n", codigo2);
@@ -82,6 +83,8 @@ printf("PIB: %.2f bilhões\n", pib2);
 printf("Número de pontos turísticos: %d\n", pontos_turisticos2);
 printf("Densidade Populacional: %.2f\n", densi_pop2);
 printf("PIB per capita: %.2f\n", pibpc2);
+printf("Super Poder da primeira carta: %f\n", superpoder2);
+
 
 return 0;
 
