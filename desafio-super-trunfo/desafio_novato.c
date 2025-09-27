@@ -16,7 +16,7 @@ int pontos_turisticos2;
 unsigned long int populacao2;
 float area2, pib2, densi_pop2, pibpc2, superpoder2;
 
-superpoder2 = (float) populacao2 + area2 + pib2 + pontos_turisticos2 + pibpc2 + (1.0 /densi_pop2);
+superpoder2 = (float) populacao2 + area2 + pib2 + pontos_turisticos2 + pibpc2 + (1/densi_pop2);
 
 // Informações para a Carta 1
 
@@ -87,8 +87,8 @@ printf("Super Poder da primeira carta: %f\n", superpoder2);
 
 // Comparação dos atributos das cartas
 
-printf("\n Comparação dos atributos das cartas");
-printf("Legenda: (1) verdadeiro e (2) falso\n");
+printf("\n***Comparação dos atributos das cartas***\n");
+printf("\nLegenda: (1) verdadeiro e (2) falso\n");
 printf("População: Carta 1 venceu (%d)\n", populacao1 > populacao2);
 printf("Área: Carta 1 venceu (%d)\n", area1 > area2);
 printf("PIB: Carta 1 venceu (%d)\n", pib1 > pib2);
