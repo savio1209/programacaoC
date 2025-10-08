@@ -17,14 +17,14 @@ int main(){
     if (temperatura > 30){
         printf("A temperatura está alta.\n");
     } else {
-        printf("A temperatura está dentro dos parâmetros.");
+        printf("A temperatura está dentro dos parâmetros.\n");
 
     }
 
     if (umidade > 50){
-        printf("A umidade está elevada.\n";)
+        printf("A umidade está elevada.\n");
     } else {
-        printf("A temperatura está dentro dos parâmetros.\n");
+        printf("A umidade está dentro dos parâmetros.\n");
     }
 
     if (estoque < estoqueMinimo){
