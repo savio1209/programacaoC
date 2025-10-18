@@ -17,6 +17,12 @@ int main() {
         case 2:
         printf("Digite o banco que você deseja depositar:\n");
         printf("Digite a agência que você deseja depositar:\n");
-        printf("Digite a conta que você deseja ")
+        printf("Digite a conta que você deseja depositar:\n");
+        break;
+        case 3:
+        printf("Digite o valor a sacar:\n");
+        break;
+        default:
+        printf("Opção inválida!\n");
     }
 }
