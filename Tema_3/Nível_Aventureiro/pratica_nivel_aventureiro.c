@@ -27,29 +27,26 @@ case 1:
     if (numerosecreto == palpite)
     {
         printf("Você adivinhou!\n");
-        printf("O número secreto é %d\n, numerosecreto");
+        printf("O número secreto é %d\n", numerosecreto);
     } else {
-        printf("errou!\n");
-        printf("O número secreto é %d\n, numerosecreto");
+        printf("Você errou!\n");
+        printf("O número secreto é %d\n", numerosecreto);
     }
-    printf("Número secreto %d\n", numerosecreto);
     break;
 
 case 2:
     printf("As regras do jogo! \n");
     printf("Insira a opção relacionada as regras do jogo.\n");
     scanf("%d", &regras);
-
     switch (regras)
     {
-        case 1:
+    case 1:
         printf("Regra 1: \n");
         break;
-
-        case 2:
+    case 2:
         printf("Regra 2: \n");
-
-        default:
+    
+    default:
         break;
     }
     break;
