@@ -28,7 +28,7 @@ case 3:
     break;
 
 default:
-    printf("Opção inválida.\n")
+    printf("Opção inválida.\n");
     break;
 }
 
