@@ -1,8 +1,12 @@
 #include <stdio.h>
+// Duas novas bibliotecas.
+#include <stdlib.h>
+#include <time.h>
 
 // Declaração da variável opcao.
 int main() {
 int opcao;
+int numerosecreto, palpite;
 
 // Menu interativo com 3 opções.
 printf("Menu Principal\n");
@@ -12,7 +16,7 @@ printf("3. Sair\n");
 printf("Escolha uma opcao: ");
 scanf("%d", &opcao);
 
-// Estrutura switch
+// Estrutura switch.
 switch (opcao)
 {
 case 1:
