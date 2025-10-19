@@ -20,7 +20,7 @@ scanf("%d", &opcao);
 switch (opcao)
 {
 case 1:
-    printf("Execução do Jogo\n");
+    srand(time(0));
     break;
 
 case 2:
