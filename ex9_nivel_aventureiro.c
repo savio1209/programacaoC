@@ -21,6 +21,16 @@ switch (opcao)
 {
 case 1:
     srand(time(0));
+    numerosecreto = rand() % 10;
+    printf("Digite um número de 0 a 9: ");
+    scanf("%d", &palpite);
+    if (numerosecreto == palpite)
+    {
+        printf("Você adivinhou!\n");
+    } else {
+        printf("errou!\n");
+    }
+    printf("Número secreto %d\n", numerosecreto);
     break;
 
 case 2:
