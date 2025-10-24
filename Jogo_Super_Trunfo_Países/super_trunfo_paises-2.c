@@ -100,16 +100,6 @@ printf("4 - Pontos Turísticos\n");
 printf("5 - Densidade Demográfica\n");
 scanf("%d", &escolha);
 
-
-
-// Comparação do atributo "superpoder" utilizando operadores relacionais com estrutura composta
-
-if (superpoder1 > superpoder2){
-    printf("A carta 1 venceu! Parabéns!\n");
-} else {
-    printf ("A carta 2 venceu! Parabéns!\n");
-}
-
 return 0;
 
 }
