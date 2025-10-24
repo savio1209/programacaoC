@@ -100,6 +100,74 @@ printf("4 - Pontos Turísticos\n");
 printf("5 - Densidade Demográfica\n");
 scanf("%d", &escolha);
 
+// Comparação dos atributos mesclando estrutura switch e if/else
+
+switch (escolha) {
+    case 1:
+        printf("\nComparando População:\n");
+        printf("%s: %lu habitantes\n", nome_cidade1, populacao1);
+        printf("%s: %lu habitantes\n", nome_cidade2, populacao2);
+        if (populacao1 > populacao2)
+            printf("%s venceu!\n", nome_cidade1);
+        else if (populacao2 > populacao1)
+            printf("%s venceu!\n", nome_cidade2);
+        else
+            printf("Empate!\n");
+        break;
+
+    case 2:
+        printf("\nComparando Área:\n");
+        printf("%s: %.2f km²\n", nome_cidade1, area1);
+        printf("%s: %.2f km²\n", nome_cidade2, area2);
+        if (area1 > area2)
+            printf("%s venceu!\n", nome_cidade1);
+        else if (area2 > area1)
+            printf("%s venceu!\n", nome_cidade2);
+        else
+            printf("Empate!\n");
+        break;
+
+    case 3:
+        printf("\nComparando PIB:\n");
+        printf("%s: %.2f bilhões\n", nome_cidade1, pib1);
+        printf("%s: %.2f bilhões\n", nome_cidade2, pib2);
+        if (pib1 > pib2)
+            printf("%s venceu!\n", nome_cidade1);
+        else if (pib2 > pib1)
+            printf("%s venceu!\n", nome_cidade2);
+        else
+            printf("Empate!\n");
+        break;
+
+    case 4:
+        printf("\nComparando Pontos Turísticos:\n");
+        printf("%s: %d pontos\n", nome_cidade1, pontos_turisticos1);
+        printf("%s: %d pontos\n", nome_cidade2, pontos_turisticos2);
+        if (pontos_turisticos1 > pontos_turisticos2)
+            printf("%s venceu!\n", nome_cidade1);
+        else if (pontos_turisticos2 > pontos_turisticos1)
+            printf("%s venceu!\n", nome_cidade2);
+        else
+            printf("Empate!\n");
+        break;
+
+    case 5:
+        printf("\nComparando Densidade Demográfica:\n");
+        printf("%s: %.2f hab/km²\n", nome_cidade1, densi_pop1);
+        printf("%s: %.2f hab/km²\n", nome_cidade2, densi_pop2);
+        if (densi_pop1 < densi_pop2)
+            printf("%s venceu (menor densidade)!\n", nome_cidade1);
+        else if (densi_pop2 < densi_pop1)
+            printf("%s venceu (menor densidade)!\n", nome_cidade2);
+        else
+            printf("Empate!\n");
+        break;
+
+    default:
+        printf("Opção inválida!\n");
+        break;
+}
+
 return 0;
 
 }
