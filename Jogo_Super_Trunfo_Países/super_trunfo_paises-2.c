@@ -89,6 +89,19 @@ printf("Densidade Populacional: %.2f\n", densi_pop2);
 printf("PIB per capita: %.2f\n", pibpc2);
 printf("Super Poder da segunda carta: %f\n", superpoder2);
 
+// Menu interativo usando Switch
+
+printf("\n=== MENU DE COMPARAÇÃO ===\n");
+printf("Escolha o atributo para comparar:\n");
+printf("1 - População\n");
+printf("2 - Área\n");
+printf("3 - PIB\n");
+printf("4 - Pontos Turísticos\n");
+printf("5 - Densidade Demográfica\n");
+scanf("%d", &escolha);
+
+
+
 // Comparação do atributo "superpoder" utilizando operadores relacionais com estrutura composta
 
 if (superpoder1 > superpoder2){
