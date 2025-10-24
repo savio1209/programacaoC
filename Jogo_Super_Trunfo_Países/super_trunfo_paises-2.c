@@ -4,7 +4,7 @@ int main() {
 
 // Declaração das variáveis para a carta 1 
 char estado1[100], codigo1[4], nome_cidade1[100];
-int pontos_turisticos1;
+int pontos_turisticos1, escolha;
 unsigned long int populacao1;
 float area1, pib1, densi_pop1, pibpc1, superpoder1;
 
