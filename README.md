@@ -1,30 +1,40 @@
-# 👨‍💻 Programação em C
+# 💻 Programação em C
 
-Repositório dedicado aos meus estudos iniciais em linguagem C, desenvolvidos durante minha formação em Análise e Desenvolvimento de Sistemas.
+Repositório de estudos em Linguagem C, com exercícios e projetos desenvolvidos ao longo da disciplina de Introdução à Programação de Computadores.
 
-## 🚀 Sobre este projeto
-Este repositório reúne exercícios e práticas voltadas ao desenvolvimento da lógica de programação utilizando C.
+## 📚 Estrutura do Repositório
 
-⚠️ Este projeto ainda está em desenvolvimento e não contempla todos os tópicos da linguagem C.
+- 📁 fundamentos  
+  Exercícios básicos da linguagem C, incluindo:
+  - Variáveis
+  - Entrada e saída (printf/scanf)
+  - Estruturas condicionais simples
 
-## 📚 Conteúdos estudados até o momento
-- Variáveis e tipos de dados
-- Entrada e saída de dados (`printf` e `scanf`)
-- Estruturas condicionais (`if` e `else`)
-- Estruturas de repetição (`for`, `while`, `do-while`)
-- Operadores básicos
+- 📁 exercicios  
+  Exercícios de nível intermediário com foco em lógica:
+  - Estruturas de repetição
+  - Condições compostas
+  - Menus interativos
 
-## 🛠️ Tecnologias utilizadas
-- Linguagem C
-- GCC (compilador)
-- Visual Studio Code
-
-## 📈 Evolução
-Este repositório será atualizado conforme avanço nos estudos e aprofundamento na linguagem.
-
-## 🎯 Objetivo profissional
-Desenvolver uma base sólida em lógica de programação e construção de algoritmos, visando evolução para desenvolvimento de software.
+- 📁 projetos  
+  Pequenos projetos práticos aplicando os conceitos aprendidos
 
 ---
 
-✍️ Desenvolvido por Sávio Miranda
+## 🎯 Objetivo
+
+Consolidar o aprendizado em lógica de programação e desenvolver habilidades fundamentais na linguagem C.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- Linguagem C
+- Compilador GCC
+- Visual Studio Code
+
+---
+
+## 📌 Observação
+
+Este repositório faz parte do meu processo de aprendizado, portanto os conteúdos refletem minha evolução ao longo dos estudos.
